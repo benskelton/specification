@@ -14,8 +14,9 @@ Here we define the essential jargon:
 
 The Ledger
   - A public record of valid transactions
+  
 .. image::  _static/images/slack_ledger.png
-    :width: 120px
+    :width: 200px
     :alt: CSW on the ledger
     :align: center
     
@@ -25,16 +26,18 @@ UTXO
   - Can contain bitcoin.
   - Imagine it as an envelope that can be opened (unlocked) only once.
   - The UTXO Model is different to Ethereum's account model, which may confuse developers coming from ETH!
+  
 .. image::  _static/images/slack_utxo_vs_account_model.png
-    :width: 120px
+    :width: 200px
     :alt: CSW on the UTXO vs Account Model
     :align: center
 
 Transaction
   - Contains a Smart Contract
   - Can create multiple UTXOs
+  
 .. image::  _static/images/slack_tokens_envelopes_ledger.png
-    :width: 120px
+    :width: 200px
     :alt: CSW on the UTXO vs Account Model
     :align: center
     
