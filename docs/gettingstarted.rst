@@ -12,22 +12,38 @@ Know all about how Bitcoin works? Skip to Setting-Up_.
 The concepts are rather simple but obscure terms may confuse someone starting out or coming from another procotol.
 Here we define the essential jargon:
 
+The Ledger
+  - A public record of valid transactions
+.. image::  _static/images/slack_ledger.png
+    :width: 120px
+    :alt: CSW on the ledger
+    :align: center
+    
 UTXO
   - Unspent transaction(TX) Output.
   - Located at an address.
   - Can contain bitcoin.
   - Imagine it as an envelope that can be opened (unlocked) only once.
-<hope to get a a screenshot of CSW's envelope description from Metanet ICU, but haven't found it yet>
+  - The UTXO Model is different to Ethereum's account model, which may confuse developers coming from ETH!
+.. image::  _static/images/slack_utxo_vs_account_model.png
+    :width: 120px
+    :alt: CSW on the UTXO vs Account Model
+    :align: center
 
 Transaction
   - Contains a Smart Contract
   - Can create multiple UTXOs
-
+.. image::  _static/images/slack_tokens_envelopes_ledger.png
+    :width: 120px
+    :alt: CSW on the UTXO vs Account Model
+    :align: center
+    
 Address
-  - Unique identifier of a UTXO in the Bitcoin Blockchain
-  - A Public Key
+  - Unique identifier owned by the recipient party in a transaction.  Bitcoin can be sent to an address.
+  - Ideally to be used only once
 
 Wallet
+  - Can own multiple Addresses
   - Can own multiple UTXOs
   - During a Transaction it gathers enough bitcoin from its UTXOs to cover the cost of the Transaction
   
