@@ -54,7 +54,7 @@ Wallet
 
 
 Miner
-  - Validates *Transactions*.  
+  - A *Transaction* processor that validates *Transactions*.  
   - If a *Transaction* is valid the *Miner* executes it and adds the *Transaction*'s *UTXOs* to the Bitcoin *Ledger*.
 
 
