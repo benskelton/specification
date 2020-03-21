@@ -70,6 +70,9 @@ Smart Contract
     - to require the approval of multiple individuals to execute a *Transaction*
 
 
+Locking and Unlocking Scripts
+  - The *Locking Script* is a puzzle and the *Unlocking Script* the solution/answer to that puzzle.
+
 P2PKH
   - Stands for Pay to Public Key Hash.
   - The most commonly used type of *Smart Contract*
