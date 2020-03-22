@@ -44,6 +44,11 @@ Address
   - Unique identifier owned by the recipient party in a *Transaction*.  *Bitcoin Tokens* can be sent to an address.
   - Ideally to be used only once
 
+.. image::  _static/images/slack_tokens_envelopes_ledger.png
+    :width: 400px
+    :alt: CSW on the UTXO vs Account Model
+    :align: center
+.. _Read more in the Bitcoin SV Wiki: https://wiki.bitcoinsv.io/index.php/Bitcoin_address
 
 Wallet
   - Can own multiple *Wallet Addresses*
@@ -54,7 +59,7 @@ Wallet
 
 
 Miner
-  - Validates *Transactions*.  
+  - A *Transaction* processor that validates *Transactions*.  
   - If a *Transaction* is valid the *Miner* executes it and adds the *Transaction*'s *UTXOs* to the Bitcoin *Ledger*.
 
 
@@ -69,6 +74,9 @@ Smart Contract
     - for a *Miner* to redeem their newly mined *Bitcoin Tokens*
     - to require the approval of multiple individuals to execute a *Transaction*
 
+
+Locking and Unlocking Scripts
+  - The *Locking Script* is a puzzle and the *Unlocking Script* the solution/answer to that puzzle.
 
 P2PKH
   - Stands for Pay to Public Key Hash.
