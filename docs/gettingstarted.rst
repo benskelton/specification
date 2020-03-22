@@ -45,7 +45,7 @@ Address
   - Ideally to be used only once
   - `Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Bitcoin_address>`_
 .. image::  _static/images/wiki_bitcoin_address.png
-    :width: 400px
+    :width: 600px
     :alt: Wiki explanation of Address
     :align: center
 
@@ -58,7 +58,7 @@ Wallet
   - Accessible to its owner via its *Private Keys*
   - `Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Private_Keys>`_
 .. image::  _static/images/wiki_private_keys.png
-    :width: 400px
+    :width: 600px
     :alt: Wiki explanation of Private Keys
     :align: center
 
