@@ -48,7 +48,7 @@ Address
     :width: 400px
     :alt: Wiki explanation of Address
     :align: center
-.. _Read more in the Bitcoin SV Wiki: https://wiki.bitcoinsv.io/index.php/Bitcoin_address
+`Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Bitcoin_address>`_.
 
 Wallet
   - Can own multiple *Wallet Addresses*
