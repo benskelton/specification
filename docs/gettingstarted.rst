@@ -43,12 +43,12 @@ Transaction
 Address
   - Unique identifier owned by the recipient party in a *Transaction*.  *Bitcoin Tokens* can be sent to an address.
   - Ideally to be used only once
-
+  - `Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Bitcoin_address>`_.
 .. image::  _static/images/wiki_bitcoin_address.png
     :width: 400px
     :alt: Wiki explanation of Address
     :align: center
-`Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Bitcoin_address>`_.
+
 
 Wallet
   - Can own multiple *Wallet Addresses*
