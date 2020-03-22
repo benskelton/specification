@@ -43,7 +43,7 @@ Transaction
 Address
   - Unique identifier owned by the recipient party in a *Transaction*.  *Bitcoin Tokens* can be sent to an address.
   - Ideally to be used only once
-  - `Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Bitcoin_address>`_.
+  - `Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Bitcoin_address>`_
 .. image::  _static/images/wiki_bitcoin_address.png
     :width: 400px
     :alt: Wiki explanation of Address
@@ -54,8 +54,13 @@ Wallet
   - Can own multiple *Wallet Addresses*
   - Can own multiple *UTXOs*
   - During a *Transaction* it gathers enough *Bitcoin Tokens* from its *UTXOs* to cover the cost of the *Transaction*
-  
     - eg. A wallet sends 10 bitcoin to another wallet.  Say it owns two UTXOs, one containing 7 bitcoin and another containing 4, these two are unlocked.  The transaction creates two new UTXOs: one containing 10 bitcoin to be received by the other wallet and another containing the change of 1 bitcoin, still to be owned by the sending wallet.
+  - Accessible to its owner via its *Private Keys*
+  - `Read more in the Bitcoin SV Wiki: <https://wiki.bitcoinsv.io/index.php/Private_Keys>`_
+.. image::  _static/images/wiki_private_keys.png
+    :width: 400px
+    :alt: Wiki explanation of Private Keys
+    :align: center
 
 
 Miner
