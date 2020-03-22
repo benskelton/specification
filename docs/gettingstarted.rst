@@ -44,9 +44,9 @@ Address
   - Unique identifier owned by the recipient party in a *Transaction*.  *Bitcoin Tokens* can be sent to an address.
   - Ideally to be used only once
 
-.. image::  _static/images/slack_tokens_envelopes_ledger.png
+.. image::  _static/images/wiki_bitcoin_address.png
     :width: 400px
-    :alt: CSW on the UTXO vs Account Model
+    :alt: Wiki explanation of Address
     :align: center
 .. _Read more in the Bitcoin SV Wiki: https://wiki.bitcoinsv.io/index.php/Bitcoin_address
 
