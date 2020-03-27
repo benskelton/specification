@@ -74,10 +74,11 @@ Miner
 
 
 Smart Contract
-  - Executed by *Miners*, if they confirm the *Transaction* is valid
+  - A self executing contract with its terms implemented in code.
+  - Executed by *Miners*, if they confirm the *Transaction* is valid.
   - Contained in a *UTXO*.
   - Has a *Locking Script* to seal the envelope(*UTXO*) and an *Unlocking Script* to open it.
-  - Written in a Forth-like low level language called *Bitcoin Script*
+  - Written in a Forth-like low level language called *Bitcoin Script*.
   - Can be used for a wide variety of purposes, some simple common examples:
   
     - to send *Bitcoin Tokens* to a specified *Wallet*
