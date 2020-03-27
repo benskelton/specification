@@ -34,7 +34,12 @@ UTXO
 Transaction
   - Contains a *Smart Contract*
   - Can create multiple *UTXOs*
-  
+
+.. image:: _static/images/article_transaction.png
+    :width: 400px
+    :align: center
+    :alt: Transaction Diagram
+    
 .. image::  _static/images/slack_tokens_envelopes_ledger.png
     :width: 400px
     :alt: CSW on the UTXO vs Account Model
@@ -82,6 +87,11 @@ Smart Contract
 
 Locking and Unlocking Scripts
   - The *Locking Script* is a puzzle and the *Unlocking Script* the solution/answer to that puzzle.
+
+.. image:: _static/images/article_locking_script.png
+    :width: 400px
+    :align: center
+    :alt: Locking Script Diagram
 
 P2PKH
   - Stands for Pay to Public Key Hash.
