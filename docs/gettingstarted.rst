@@ -75,6 +75,11 @@ Miner
 
 Smart Contract
   - A self executing contract with its terms implemented in code.
+  - In *Bitcoin Script* smart contracts can be implemented via:
+    - smart locking scripts **← this is what sCrypt utilises**
+    - smart use of sighash flags
+    - layered networks
+    - payment channels
   - Executed by *Miners*, if they confirm the *Transaction* is valid.
   - Contained in a *UTXO*.
   - Has a *Locking Script* to seal the envelope(*UTXO*) and an *Unlocking Script* to open it.
